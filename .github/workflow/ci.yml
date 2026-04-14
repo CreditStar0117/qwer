@@ -1,9 +1,8 @@
 name: CI
 
-on:
-  push:
+on: [push]
     # branches: [ "feat/add-ci-cd" ]
-    branches: [ "main" ]
+    # branches: [ "main" ]
 
 jobs:
   build:
