@@ -3,7 +3,7 @@ name: CI
 on: 
   push:
     # branches: [ "feat/add-ci-cd" ]
-    branches: [ "main" ]
+    branches: [ "test-cid" ]
 
 jobs:
   build:
