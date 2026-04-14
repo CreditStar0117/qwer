@@ -2,11 +2,12 @@ name: CI
 
 on:
   push:
-    branches: [ "feat/add-ci-cd" ]
+    # branches: [ "feat/add-ci-cd" ]
+    branches: [ "main" ]
 
 jobs:
   build:
-    if: ${{ github.ref == 'refs/heads/main' }}
+    # if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
 
     steps:
